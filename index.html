@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gardewa Budi Santana | Commercial & Digital Marketing Leader</title>
+
+  <meta name="description" content="Personal website of Gardewa Budi Santana, a commercial and digital marketing professional specializing in e-commerce, CRM, customer acquisition, performance marketing, and omnichannel growth.">
+
+  <meta name="author" content="Gardewa Budi Santana">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://gardewabudisantana.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gardewa Budi Santana | Commercial & Digital Marketing Leader">
+  <meta property="og:description" content="Portfolio, professional experience, case studies, and thoughts on commercial growth, digital marketing, e-commerce, CRM, and customer acquisition.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gardewabudisantana.github.io/">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Gardewa Budi Santana",
+      "url": "https://gardewabudisantana.github.io/",
+      "jobTitle": "Commercial & Digital Marketing Leader",
+      "knowsAbout": [
+        "Commercial Strategy",
+        "Digital Marketing",
+        "E-Commerce",
+        "CRM",
+        "Customer Acquisition",
+        "Performance Marketing",
+        "Omnichannel Growth"
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --surface: #ffffff;
+      --text: #151515;
+      --muted: #686868;
+      --line: #deded8;
+      --accent: #252525;
+      --max-width: 1120px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(90%, var(--max-width));
+      margin: auto;
+    }
+
+    /* NAVIGATION */
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(247, 247, 245, 0.94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-inner {
+      min-height: 72px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .brand {
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      align-items: center;
+      padding: 100px 0;
+    }
+
+    .eyebrow {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(52px, 8vw, 96px);
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+      max-width: 950px;
+    }
+
+    .hero-title {
+      display: block;
+      color: #6a6a65;
+      font-weight: 400;
+    }
+
+    .hero-copy {
+      max-width: 720px;
+      font-size: 20px;
+      color: var(--muted);
+      margin-top: 36px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 32px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 100px;
+      padding: 8px 14px;
+      font-size: 13px;
+      background: var(--surface);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 20px;
+      border-radius: 7px;
+      border: 1px solid var(--text);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: white;
+    }
+
+    .btn-secondary {
+      background: transparent;
+    }
+
+    /* SECTIONS */
+
+    section {
+      padding: 110px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-label {
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: clamp(36px, 5vw, 58px);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      max-width: 850px;
+      margin-bottom: 40px;
+    }
+
+    .large-copy {
+      max-width: 850px;
+      font-size: 21px;
+      color: #424242;
+    }
+
+    /* EXPERTISE */
+
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 60px;
+      border-top: 1px solid var(--line);
+    }
+
+    .expertise-item {
+      padding: 28px 25px 28px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .expertise-item h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .expertise-item p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* EXPERIENCE */
+
+    .experience {
+      border-top: 1px solid var(--line);
+      margin-top: 50px;
+    }
+
+    .experience-row {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 2fr;
+      gap: 30px;
+      padding: 27px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .company {
+      font-weight: 650;
+    }
+
+    .role,
+    .experience-note {
+      color: var(--muted);
+    }
+
+    /* WORK */
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 34px;
+      min-height: 270px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform .2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card-number {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .card h3 {
+      font-size: 27px;
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* ARTICLES */
+
+    .article-list {
+      margin-top: 50px;
+      border-top: 1px solid var(--line);
+    }
+
+    .article {
+      display: grid;
+      grid-template-columns: 120px 1fr 50px;
+      gap: 30px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+      align-items: center;
+    }
+
+    .article-date {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .article h3 {
+      font-size: 21px;
+      font-weight: 550;
+    }
+
+    .article-category {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .arrow {
+      text-align: right;
+      font-size: 20px;
+    }
+
+    /* CONTACT */
+
+    .contact-box {
+      background: var(--text);
+      color: white;
+      border-radius: 16px;
+      padding: 60px;
+    }
+
+    .contact-box .section-label {
+      color: #aaa;
+    }
+
+    .contact-box h2 {
+      max-width: 800px;
+    }
+
+    .contact-box p {
+      max-width: 650px;
+      color: #c7c7c7;
+      font-size: 18px;
+    }
+
+    footer {
+      padding: 40px 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 800px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 90px 0;
+      }
+
+      h1 {
+        font-size: 54px;
+      }
+
+      section {
+        padding: 80px 0;
+      }
+
+      .expertise-grid,
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .experience-row {
+        grid-template-columns: 1fr;
+        gap: 5px;
+      }
+
+      .article {
+        grid-template-columns: 1fr 30px;
+      }
+
+      .article-date {
+        grid-column: 1 / -1;
+      }
+
+      .contact-box {
+        padding: 35px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="brand">Gardewa Budi Santana</a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#articles">Articles</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+
+  <main>
+
+    <header class="hero">
+      <div class="container">
+
+        <div class="eyebrow">
+          Commercial · Digital · E-Commerce
+        </div>
+
+        <h1>
+          Gardewa Budi Santana
+          <span class="hero-title">
+            Commercial & Digital Marketing Leader.
+          </span>
+        </h1>
+
+        <p class="hero-copy">
+          I work at the intersection of commercial strategy, digital marketing,
+          e-commerce and customer growth — turning customer insight, technology
+          and execution into sustainable business growth.
+        </p>
+
+        <div class="hero-tags">
+          <span class="tag">Commercial Strategy</span>
+          <span class="tag">Digital Marketing</span>
+          <span class="tag">E-Commerce</span>
+          <span class="tag">CRM</span>
+          <span class="tag">Customer Acquisition</span>
+          <span class="tag">Omnichannel Growth</span>
+        </div>
+
+        <div class="buttons">
+          <a href="#work" class="btn btn-primary">Explore My Work</a>
+          <a href="#articles" class="btn btn-secondary">Read My Thoughts</a>
+        </div>
+
+      </div>
+    </header>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+      <div class="container">
+
+        <div class="section-label">01 / About</div>
+
+        <h2>
+          Connecting commercial thinking with digital execution.
+        </h2>
+
+        <p class="large-copy">
+          I am a commercial and digital marketing professional with experience
+          across e-commerce, customer acquisition, CRM, performance marketing,
+          brand communication and omnichannel growth.
+          <br><br>
+          My work focuses on understanding how customers discover, evaluate,
+          purchase and stay with a brand — and translating those insights into
+          practical commercial strategies that create measurable growth.
+          <br><br>
+          This website is where I document selected work, professional
+          experiences and my thoughts on marketing, commerce, customers
+          and business growth.
+        </p>
+
+
+        <div class="expertise-grid">
+
+          <div class="expertise-item">
+            <h3>Commercial Strategy</h3>
+            <p>Connecting customer, channel and revenue opportunities.</p>
+          </div>
+
+          <div class="expertise-item">
+            <h3>Digital Marketing</h3>
+            <p>Building integrated acquisition and communication strategies.</p>
+          </div>
+
+          <div class="expertise-item">
+            <h3>E-Commerce</h3>
+            <p>Growing digital commerce across marketplaces and D2C channels.</p>
+          </div>
+
+          <div class="expertise-item">
+            <h3>CRM & Retention</h3>
+            <p>Turning customer data into meaningful lifecycle strategies.</p>
+          </div>
+
+          <div class="expertise-item">
+            <h3>Customer Acquisition</h3>
+            <p>Balancing growth, efficiency and quality of acquisition.</p>
+          </div>
+
+          <div class="expertise-item">
+            <h3>Omnichannel Growth</h3>
+            <p>Connecting online and offline customer journeys.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience">
+      <div class="container">
+
+        <div class="section-label">02 / Experience</div>
+
+        <h2>
+          Experience across commerce, marketing and customer growth.
+        </h2>
+
+        <div class="experience">
+
+          <div class="experience-row">
+            <div class="company">PT Knitto Textile Indonesia</div>
+            <div class="role">Commercial</div>
+            <div class="experience-note">
+              Commercial growth, customer acquisition, CRM, sales and digital marketing.
+            </div>
+          </div>
+
+          <div class="experience-row">
+            <div class="company">Ariston Group Indonesia</div>
+            <div class="role">Digital & E-Commerce</div>
+            <div class="experience-note">
+              E-commerce growth, digital marketing, performance, marketplace and omnichannel development.
+            </div>
+          </div>
+
+          <div class="experience-row">
+            <div class="company">Radana Finance</div>
+            <div class="role">E-Commerce</div>
+            <div class="experience-note">
+              Digital acquisition, e-commerce partnerships and customer programs.
+            </div>
+          </div>
+
+          <div class="experience-row">
+            <div class="company">TRANS TV</div>
+            <div class="role">Marketing & PR</div>
+            <div class="experience-note">
+              Brand activation, events and integrated marketing communication.
+            </div>
+          </div>
+
+          <div class="experience-row">
+            <div class="company">Adira Finance</div>
+            <div class="role">Communication</div>
+            <div class="experience-note">
+              Internal communication, editorial content and corporate engagement.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SELECTED WORK -->
+
+    <section id="work">
+      <div class="container">
+
+        <div class="section-label">03 / Selected Work</div>
+
+        <h2>
+          Selected areas of work and professional practice.
+        </h2>
+
+        <div class="cards">
+
+          <div class="card">
+            <span class="card-number">01</span>
+            <div>
+              <h3>E-Commerce Growth</h3>
+              <p>
+                Building digital commerce capabilities through marketplaces,
+                performance marketing, pricing, operations and customer experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-number">02</span>
+            <div>
+              <h3>Customer Acquisition</h3>
+              <p>
+                Developing acquisition strategies that balance revenue,
+                efficiency and long-term customer value.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-number">03</span>
+            <div>
+              <h3>CRM & Retention</h3>
+              <p>
+                Using customer segmentation, lifecycle thinking and automation
+                to build stronger customer relationships.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-number">04</span>
+            <div>
+              <h3>Commercial Transformation</h3>
+              <p>
+                Connecting sales, digital marketing, customer insight and
+                channel strategy into a more integrated commercial engine.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ARTICLES -->
+
+    <section id="articles">
+      <div class="container">
+
+        <div class="section-label">04 / Thoughts & Articles</div>
+
+        <h2>
+          Thoughts on customers, commerce and growth.
+        </h2>
+
+        <p class="large-copy">
+          Notes and perspectives from my experience working across commercial,
+          digital marketing and e-commerce.
+        </p>
+
+        <div class="article-list">
+
+          <div class="article">
+            <div class="article-date">Coming soon</div>
+            <div>
+              <h3>Customer Acquisition vs. ROAS: Why Higher Isn't Always Better</h3>
+              <div class="article-category">Digital Marketing · Growth</div>
+            </div>
+            <div class="arrow">→</div>
+          </div>
+
+          <div class="article">
+            <div class="article-date">Coming soon</div>
+            <div>
+              <h3>Why E-Commerce Growth Can't Depend on Discounts Forever</h3>
+              <div class="article-category">E-Commerce · Commercial</div>
+            </div>
+            <div class="arrow">→</div>
+          </div>
+
+          <div class="article">
+            <div class="article-date">Coming soon</div>
+            <div>
+              <h3>From Acquisition to Retention: Building a Practical CRM Strategy</h3>
+              <div class="article-category">CRM · Customer Experience</div>
+            </div>
+            <div class="arrow">→</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+      <div class="container">
+
+        <div class="contact-box">
+
+          <div class="section-label">05 / Contact</div>
+
+          <h2>
+            Let's connect and exchange ideas.
+          </h2>
+
+          <p>
+            I'm always interested in conversations around commercial strategy,
+            digital marketing, e-commerce, customer growth and new business opportunities.
+          </p>
+
+          <!-- Replace # with your LinkedIn URL later -->
+          <div class="buttons">
+            <a href="#" class="btn btn-primary" style="background:white;color:#151515;">
+              LinkedIn
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="container footer-inner">
+
+      <div>
+        © 2026 Gardewa Budi Santana
+      </div>
+
+      <div>
+        Commercial · Digital Marketing · E-Commerce
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
